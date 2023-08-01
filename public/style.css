@@ -33,7 +33,7 @@ a {
 }
 
 #content {
-    height: 100vh;
+    height: 90vh;
     text-align: center;
     width: auto;
     position: relative;
@@ -43,9 +43,9 @@ a {
     align-items: center;
 }
 
-img {
-    height: 15rem;
+#about-img {
     width: 15rem;
+    height: auto;
 }
 
 #punchline {
@@ -69,6 +69,11 @@ button {
   button:active {
     box-shadow: none;
     transform: translate(3px, 3px);
+  }
+
+  .gall-img{
+    width: 40rem;
+    height: auto;
   }
   
   
